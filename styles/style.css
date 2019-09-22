@@ -1,0 +1,161 @@
+/* Start Body */
+body {
+    background-color: papayawhip; 
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 24px;
+    line-height: 1.5em;
+    margin: 50px 30px;
+    padding: 0;
+}
+/* End Body */
+
+/* Start Debug */
+.bg-pink {
+    background-color: deeppink;
+}
+.bg-peachpuff {
+    background-color: peachpuff;
+}
+
+.bg-palegoldenrod  {
+    background-color: palegoldenrod;
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin:10px auto;
+    overflow: auto;
+    width:100;
+}
+
+/* Start Logo */
+.logo {
+    text-align: center;   
+}
+/* Start Logo */
+/* Start Menu Primer */
+.menu-primer ul {
+    background-color: linen;(68, 55, 38);
+    border-radius: 4px;
+    box-shadow: crimson;
+}
+.menu-primer li {
+    border-right: 1px solid;
+    display: inline-block;
+    margin: 0- 0px;
+}
+.menu-primer a{
+    color: rgb(71, 64, 52);
+    font-size: 13px; 
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: brown;
+    color: azure;
+    text-decoration: none;
+}
+.menu-primer :active {
+    background-color: azure;
+    color: aliceblue;
+    text-decoration: none;
+}
+/* End Menu Primer */
+
+/* Start Anchor / Hyperlink */
+a:link,
+a:visited {
+        color: black;
+        text-decoration: none;
+}
+a :hover,
+a :active {
+        color: pink;
+        text-decoration: underline;
+}
+/* End Anchor / Hyperlink */
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color: magenta;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 20px 0; 
+}
+
+.welcome {
+    background-color: magenta;
+}
+/* End Jumbotron */
+
+/* Start Main */
+.main-home-one {
+    float: left;
+    width: 48%; 
+}
+
+.main-home-two {
+    float: right;
+    width: 49%;
+}
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 140px;
+}
+/* End Main */
+
+/* Start Box */
+.box-heading {
+    background-color: white;
+    border: 1px solid;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.box-isi {
+    background-color: white;
+    border: 1px #eaecef;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/* End Box */
